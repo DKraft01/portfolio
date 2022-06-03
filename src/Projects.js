@@ -1,5 +1,6 @@
 import ProjectCard from "./Components/ProjectCard";
 import "./Projects.css";
+import ProjectInfo from "./Components/ProjectInfo.json";
 
 export default function Projects() {
   return (
@@ -9,10 +10,16 @@ export default function Projects() {
       </h2>
       <div className="projects-grid-container">
         <div data-aos="fade-up" className="projects-grid">
-          <ProjectCard></ProjectCard>
-          <ProjectCard></ProjectCard>
-          <ProjectCard></ProjectCard>
-          <ProjectCard></ProjectCard>
+          {ProjectInfo.map((e) => {
+            return (
+              <ProjectCard
+                name={e.name}
+                img={e.img}
+                link={e.link}
+                description={e.description}
+              ></ProjectCard>
+            );
+          })}
         </div>
       </div>
     </div>

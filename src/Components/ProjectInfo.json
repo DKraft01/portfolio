@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Pokeapp",
+    "link": "https://dkraft01.github.io/pokeapp/",
+    "img": "../img/project-pokeapp.png",
+    "description": "This was my first project, I did it one year ago, you have the initial pokemons of the first three generations if you click on them it will show you some basic info, and you have an add button if you want to add your own pokemons. (It's not responsive yet)"
+  },
+  {
+    "name": "Todo-List",
+    "link": "https://dkraft01.github.io/first-todo-list/",
+    "img": "../img/project-todo.png",
+    "description": "This is a basic CRUD, you can create your tasks, edit them and delete them once you're finished, I'm still working on it."
+  },
+  {
+    "name": "Pokedex",
+    "link": "https://dkraft01.github.io/pokedex/",
+    "img": "../img/project-pokedex.png",
+    "description": "I used PokeApi to call all +900 pokemons with their respective image, pokedex number, and and name, when you click on them it will take you to wikidex where you can the rest of the data from the pokemon."
+  },
+  {
+    "name": "Stock-Predictor",
+    "link": "https://dkraft01.github.io/stock-predictor/",
+    "img": "../img/project-stockpredictor.png",
+    "description": "This was a college project, using numerical methods, interpolation and curve fitting it will show a prediction for tomorrow's stock prices, this will be accurate if stock market were a little bit rational"
+  }
+]
