@@ -1,0 +1,52 @@
+.skill {
+  background-color: #000000;
+  color: aliceblue;
+  width: 100%;
+  position: relative;
+  top: 0vh;
+  font-size: xx-large;
+  padding-top: 15vh;
+  align-items: center;
+  padding-bottom: 10vh;
+}
+
+.skill-sub {
+  margin-left: 10vw;
+  font-size: calc(1rem + 2vw);
+  margin-bottom: 15vh;
+}
+
+.skill-underline {
+  background: linear-gradient(currentColor 0 0) bottom / 100% var(--d, 0.7vw)
+    no-repeat;
+  transition: 0.5s ease;
+}
+
+.skill-underline:hover {
+  --d: 10px;
+}
+
+.skill-grid-container {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 500px) {
+  .skill-grid {
+    display: grid;
+    width: 70%;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: auto auto;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .skill-grid {
+    display: grid;
+    width: 70%;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: auto auto auto;
+  }
+}

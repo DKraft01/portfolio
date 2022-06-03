@@ -1,0 +1,39 @@
+[
+  {
+    "name": "html",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg",
+    "offer": "Well structured pages in HTML5 designed to be SEO friendly with meta tags, alts and titles, this is the fundamental of evey page, and comitting bad habits here can make an easy project become a nightmare, so I know the importance of handling things well even if this is known as the 'easy part'. ",
+    "extra": "As a React developer I use JSX in most cases, both have similar syntax but at the end they are a little different"
+  },
+  {
+    "name": "css",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
+    "offer": "Elegant and cool layouts, button and texts animations, transitions or effects according to the website, responsive design so it can be seen properly on mobile or pc, flexible and minimalistic UI/UX and of course lots of creative ideas to implement in each project. ",
+    "extra": "Also I sometimes use frameworks like bootstrap or material UI for faster development, but for this page I only used pure CSS to have more control of components (also because it relaxes me, it's like drawing)."
+  },
+  {
+    "name": "javascript",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg",
+    "offer": "Great control flow in projects including ternary and logical operators, error handling and asynchronity using async await or promises for fetching data, DOM manipulation and the basics of node.js.",
+    "extra": "I don't really have any extra information, and I'm not really sure if people take the time to read this (If you're doing it you probably are great at your job), So... Here's a fun fact: JavaScript took just 10 days to develop. But people struggle more than 10 years to finally understand it."
+  },
+  {
+    "name": "react",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+    "offer": "A picture is worth a thousand words, and that's what I intended with this website created with react, so this includes conditional rendering, multiples components, Hooks, state managment, routing and other features that you can see by yourself in the listed projects.",
+    "extra": "I've been learning React for a year and I still have so much to learn, but I really loved it so far!"
+  },
+
+  {
+    "name": "Illustrator",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Adobe_Illustrator_CC_icon.svg",
+    "offer": "Creation of logos, animations, posters or ads, also for designing user interfaces for websites or apps.",
+    "extra": "A multimedia Engineering is like the best of both worlds, you learn how to code but you also learn a lot about design, color theory and conceptualization of ideas, so it really helps a lot as a front-end developer"
+  },
+  {
+    "name": "Photoshop",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg",
+    "offer": "Image editing, basic retouching, add effects and creating compositions are some of the main benefits I can offer in Photoshop.",
+    "extra": "This isn't my principal focus, but you know... you have to learn a little of everything."
+  }
+]

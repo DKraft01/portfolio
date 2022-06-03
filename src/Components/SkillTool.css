@@ -1,0 +1,107 @@
+.skilltool-svg-container {
+  background-color: aliceblue;
+  width: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border-radius: 100%;
+  padding: 4%;
+}
+
+.skilltool-svg-container:hover::before {
+  transform: scale(1.1);
+  box-shadow: 0 0 15vh #ffffff;
+}
+
+.skilltool-svg-container:hover {
+  color: #ffffff;
+  box-shadow: 0 0 5vh #ffffff;
+  text-shadow: 0 0 5vh #ffffff;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+  .skilltool-svg-container {
+    background-color: rgb(255, 255, 255);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 100%;
+    padding: 15%;
+    margin-bottom: 5vh;
+  }
+  .skilltool-svg {
+    display: inline-block;
+    width: 75px;
+    height: 37.5px;
+    object-fit: contain;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .skilltool-svg-container {
+    background-color: aliceblue;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 100%;
+    padding: 10%;
+    margin-bottom: 5vh;
+  }
+  .skilltool-svg {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    object-fit: contain;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .skilltool-svg-container {
+    background-color: aliceblue;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 100%;
+    padding: 10%;
+    margin-bottom: 5vh;
+  }
+  .skilltool-svg {
+    display: inline-block;
+    width: 150px;
+    height: 75px;
+    object-fit: contain;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .skilltool-svg-container {
+    background-color: aliceblue;
+    width: 86px;
+    height: 86px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 100%;
+    padding: 10%;
+    margin-bottom: 10vh;
+  }
+
+  .skilltool-svg {
+    display: inline-block;
+    width: 128px;
+    height: 64px;
+    object-fit: contain;
+  }
+}

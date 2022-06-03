@@ -1,0 +1,32 @@
+.projects-main {
+  padding-top: 20vh;
+
+  background-color: aliceblue;
+}
+
+.projects-grid-container {
+  display: flex;
+
+  justify-content: center;
+}
+
+@media screen and (min-width: 600px) {
+  .projects-grid {
+    display: grid;
+    width: 80vw;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .projects-grid {
+    display: grid;
+
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+  }
+}

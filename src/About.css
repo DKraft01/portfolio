@@ -1,0 +1,66 @@
+.about {
+  background-color: #ffffff;
+
+  width: 100%;
+  position: relative;
+  top: 0vh;
+  font-size: xx-large;
+  padding-top: 15vh;
+  align-items: center;
+}
+
+.about-sub {
+  margin-left: 10vw;
+  font-size: calc(1rem + 2vw);
+  margin-bottom: 10vh;
+}
+
+.about-underline {
+  background: linear-gradient(currentColor 0 0) bottom / 100% var(--d, 0.7vw)
+    no-repeat;
+  transition: 0.5s ease;
+}
+
+.about-underline:hover {
+  --d: 10px;
+}
+
+.about-text {
+  font-size: calc(1rem + 0.4vw);
+  text-align: justify;
+  margin: 1vh 20vw 5vh 20vw;
+}
+
+.about-wkm-div {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10vh;
+}
+
+.about-wkm {
+  margin: auto;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  padding-inline: 1.5%;
+  padding: 9px 19px 9px 19px;
+  margin: 2vh;
+  font-weight: 100;
+
+  border: 1px black solid;
+
+  align-self: center;
+  background: linear-gradient(#000 0 0) 50% calc(-3px - 100%) / var(--d, 0%)
+    200% no-repeat;
+  transition: 0.3s, background-size 0.3s 0.3s;
+}
+.about-wkm:hover {
+  --d: 100%;
+  background-position: 50% 0%;
+  color: #fff;
+  transition: 0.3s, background-position 0.3s 0.3s, color 0.3s 0.3s;
+  cursor: pointer;
+}
+
+/* background: linear-gradient(currentColor 0 0) bottom / 100% var(--d, 0px)
+no-repeat; */

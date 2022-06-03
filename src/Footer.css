@@ -1,0 +1,23 @@
+.footer-main {
+  background-color: rgb(9, 9, 9);
+  color: aliceblue;
+  padding: 0.7%;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 2vw;
+}
+
+.footer-main img {
+  width: 20px;
+  height: 20px;
+}
+
+.footer-main a {
+  display: flex;
+  margin-left: 1vw;
+  margin-right: 2vw;
+}
+
+.footer-main img:hover {
+  cursor: pointer;
+}

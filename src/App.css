@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Poppins:wght@200;700&display=swap");
+
+body {
+  background-color: black;
+  font-family: "Poppins";
+}
+
+.landingSvg {
+  display: block;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100vw;
+
+  max-width: 100%;
+}
+
+.proof {
+  position: absolute;
+  top: 67.2vh;
+  width: 100%;
+  height: 10vh;
+}
+
+@media (max-width: 400px) {
+  .proof {
+    top: 67.5vh;
+  }
+}
+@media (min-width: 768px) {
+  .proof {
+    top: 67.2vh;
+  }
+}
+
+@media (min-width: 1025px) {
+  .proof {
+    top: 67.2vh;
+  }
+}
+@media (min-width: 2100px) {
+  .proof {
+    top: 65.2vh;
+  }
+}
