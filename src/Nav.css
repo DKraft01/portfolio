@@ -35,7 +35,7 @@ a {
     z-index: 1;
     list-style: none;
     display: flex;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
   }
 
@@ -61,7 +61,7 @@ a {
     background-color: rgb(9, 9, 9);
     position: fixed;
     top: 0%;
-    height: 10vh;
+    height: 8vh;
     width: 100vw;
     opacity: 1;
     color: aliceblue;
@@ -70,10 +70,10 @@ a {
     display: flex;
 
     flex-direction: column;
+    justify-content: center;
   }
 
   .logo {
-    margin-top: 2vh;
   }
 
   .nav .nav-it {
