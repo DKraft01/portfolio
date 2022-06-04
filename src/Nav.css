@@ -61,7 +61,7 @@ a {
     background-color: rgb(9, 9, 9);
     position: fixed;
     top: 0%;
-    height: 8vh;
+
     width: 100vw;
     opacity: 1;
     color: aliceblue;
@@ -73,7 +73,9 @@ a {
     justify-content: center;
   }
 
-  .logo {
+  .nav-home-logo {
+    padding-top: 3vh;
+    padding-bottom: 3vh;
   }
 
   .nav .nav-it {

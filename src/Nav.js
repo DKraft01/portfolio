@@ -8,9 +8,11 @@ export default function Nav(props) {
   const [Expanded, setExpanded] = useState("nav-it");
 
   const expand = () => {
-    Expanded === "nav-it"
-      ? setExpanded("nav-it-expanded")
-      : setExpanded("nav-it");
+    if (Expanded === "nav-it") {
+      setExpanded("nav-it-expanded");
+    } else {
+      setExpanded("nav-it");
+    }
   };
 
   return (

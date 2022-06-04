@@ -13,6 +13,7 @@ export default function Projects() {
           {ProjectInfo.map((e) => {
             return (
               <ProjectCard
+                key={e.name}
                 name={e.name}
                 img={e.img}
                 link={e.link}
