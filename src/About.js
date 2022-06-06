@@ -27,7 +27,14 @@ export default function About() {
         </p>
       </div>
       <div className="about-wkm-div">
-        <button className="about-wkm"> Wanna Know More?</button>
+        <a
+          href="https://www.linkedin.com/in/danielanthonykraft/"
+          rel="noreferrer"
+          download="DKraft react developer"
+          target="_blank"
+        >
+          <button className="about-wkm"> Wanna Know More?</button>
+        </a>
       </div>
     </div>
   );
