@@ -32,16 +32,16 @@ export default function Nav(props) {
           </div>
         </div>
 
-        <li className={Expanded}>
+        <li onClick={() => setExpanded("nav-it")} className={Expanded}>
           <a href="#about">About</a>
         </li>
-        <li className={Expanded}>
+        <li onClick={() => setExpanded("nav-it")} className={Expanded}>
           <a href="#skills">Skills</a>
         </li>
-        <li className={Expanded}>
+        <li onClick={() => setExpanded("nav-it")} className={Expanded}>
           <a href="#projects">Projects</a>
         </li>
-        <li className={Expanded}>
+        <li onClick={() => setExpanded("nav-it")} className={Expanded}>
           <a href="#contact">Contact</a>
         </li>
 

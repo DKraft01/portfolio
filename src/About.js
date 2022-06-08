@@ -33,7 +33,7 @@ export default function About() {
           download="DKraft react developer"
           target="_blank"
         >
-          <button className="about-wkm"> Wanna Know More?</button>
+          <button className="about-wkm"> Visit my linkedin</button>
         </a>
       </div>
     </div>
